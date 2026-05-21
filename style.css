@@ -9,15 +9,16 @@ body{
 }
 
 .calculator{
-  background:#ffafaf;
+  background:#ffb3b3;
   padding:20px;
   border-radius:20px;
   width:300px;
+  border: #ff3e3e 3px solid;
 }
 
 #display{
-  width:100%;
-  height:80px;
+  width:97%;
+  height:76px;
   font-size:28px;
   text-align:right;
   margin-bottom:10px;
@@ -49,3 +50,32 @@ button{
   cursor:pointer;
   background-color: #ffdbdb;
 }
+
+#pan{
+  height:60px;
+  font-size:20px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  background-color: #fda6a6;
+}
+
+#mante{
+  height:60px;
+  font-size:20px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  background-color: #f99191;
+}
+
+#no{
+  height:60px;
+  font-size:20px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  background-color: #fb7171;
+}
+
+
